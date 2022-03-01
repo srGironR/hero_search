@@ -1,0 +1,35 @@
+.o-content{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 35px;
+    box-shadow: 5px 5px 10px rgb(34, 9, 9);
+    width: 13rem;
+    cursor: pointer;
+    
+    transition-duration: 0.4s;
+    
+}
+.o-content:hover{
+    transform: scale(1.04);
+
+}
+.o-tileContainer{
+    text-align: center;
+    display: flex;
+    
+
+}
+.o-desContainer{
+    width: 10rem;
+    color: black;
+    
+    
+}
+.o-img{
+    margin-top: 0.5rem;
+    width: 12rem;
+    height: 12rem;
+    border-radius: 35px 35px 0 0;
+}
